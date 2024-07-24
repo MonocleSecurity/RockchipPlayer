@@ -1,0 +1,35 @@
+{
+  "name": "monocle",
+  "version-string": "1.19.0",
+  "dependencies": [
+    {
+      "name": "boost-optional"
+    },
+    {
+      "name": "boost-scope-exit"
+    },
+    {
+      "name": "ffmpeg",
+      "features": [
+        "avcodec",
+        "avdevice",
+        "avfilter",
+        "avresample",
+        "nonfree",
+        "opus",
+        "swresample",
+        "swscale"
+      ]
+    },
+    {
+      "name": "glfw3"
+    },
+    {
+      "name": "imgui",
+      "features": [
+        "glfw-binding",
+        "opengl3-binding"
+      ]
+    }
+  ]
+}
